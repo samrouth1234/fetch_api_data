@@ -22,16 +22,16 @@ export default function StatiticDashboard() {
       }, []);
       const columns = [
             {
-                name: 'Product',
-                selector: 'total',
+                name: 'Number of Created Certificate',
+                selector: 'createdBy',
             },
             {
-                name: 'CreatedAt',
-                selector: 'createdAt',
+                name: 'User',
+                selector: '',
             },
             {
-                name: 'CreatedBy',
-                selector: 'createdBy'
+                name: 'Date',
+                selector: 'createdAt'
             },
         ];
 
